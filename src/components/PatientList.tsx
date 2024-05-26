@@ -5,7 +5,7 @@ const PatientList = () => {
   const {patients} = usePatientStore();
 
   return (
-    <div className="w-1/2 lg:3/5 md:h-screen overflow-y-scroll">
+    <div className=" w-full md:w-1/2 lg:3/5 md:h-screen overflow-y-scroll">
         {patients.length ? (
             <>
               <h2 className="font-black text-3xl text-center">Listado de Pacientes</h2>
